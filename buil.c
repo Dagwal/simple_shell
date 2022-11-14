@@ -2,13 +2,13 @@
 /**
  * _myexit - exits the shell
  * @info: Structure containing potential arguments. Used to maintain constant function prototype.
- *  Return: exits with a given exit status
+ * Return: exits with a given exit status
  */
 int _myexit(info_t *info)
 {
 	int exitcheck;
 
-	if (info->argv[1])  /* If there is an exit arguement */
+	if (info->argv[1])
 	{
 		exitcheck = _erratoi(info->argv[1]);
 		if (exitcheck == -1)
