@@ -1,7 +1,3 @@
-/**
- * author : ephrem and dag
-*/
-
 #include "shell.h"
 
 /**
